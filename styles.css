@@ -1,0 +1,54 @@
+a {
+    color:  #11999E;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+body{
+    text-align: center;
+}
+h2 {
+    color:  #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border: 8px dotted #80c5c5;
+    border-top: 0;
+    margin: 30px auto;
+    width: 10%;
+}
+.my-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 60px 0px;
+}
+.school, .college {
+    margin: 100px;
+}
+.img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.info, #contact {
+    text-align: center;
+}
+.intro, #contact {
+    width: 30%;
+    margin: 30px auto;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #66BFBF;
+    padding: 20px 0;
+}
