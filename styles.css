@@ -31,19 +31,24 @@ hr {
     border-radius: 50%;
     margin: 60px 0px;
 }
-.school, .college {
-    margin: 100px;
+.school {
+    margin: 40px 0px 30px;
+}
+.college {
+    margin: 40px 0px 30px;
 }
 .img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+    width: 380px;
+    height: 300px;
+}
+#skills {
+    padding: 20px;
 }
 .info, #contact {
     text-align: center;
 }
 .intro, #contact {
-    width: 30%;
+    width: 50%;
     margin: 30px auto;
 }
 footer {
