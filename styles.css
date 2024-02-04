@@ -41,15 +41,23 @@ hr {
     width: 380px;
     height: 300px;
 }
-#skills {
-    padding: 20px;
-}
 .info, #contact {
     text-align: center;
 }
 .intro, #contact {
     width: 50%;
     margin: 30px auto;
+}
+.skill {
+    padding: 25px 0px;
+}
+.jLogo {
+    height: 30px;
+    width: 30px;
+}
+.express {
+    height: 25px;
+    width: 60px;
 }
 footer {
     text-align: center;
