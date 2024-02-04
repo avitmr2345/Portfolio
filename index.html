@@ -1,140 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/bc75e5551d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/bc75e5551d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="navigation-bar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="">Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto ">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
+  <div class="navigation-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="info">
+    <img src="Profile.png" class="my-image" alt="Profile Photo">
+    <h2>Hello I'm Avish.</h2>
+    <p class="intro">I am a Computer Science Student from Global Institute of Technology & Management and I am learning
+      new skills
+      regularly to enhance my knowledge. I have the ability to complete tasks on time in both individual and team
+      settings. I'm a responsible student with good time management and a flexible schedule. In this webpage I will
+      try to specify some things about me and I hope we can become friends on basis of some common interests.
+    </p>
+  </div>
+  <hr>
+  <div class="edu row">
+    <h2>Education</h2>
+    <div class="school col-lg-6 col-sm-12">
+      <img class="img " src="School.jpg" alt="school-img">
+      <p></p>
+      <h3>Maru Mal Public Senior Secondary School, Gurugram</h3>
+      <p>Completed my matriculation from C.B.S.E averaging 8.4 CGPA .</p>
+      <p>Completed my twelfth-grade from C.B.S.E averaging 77% .</p>
+    </div>
+    <div class="college col-lg-6 col-sm-12">
+      <img class="img" src="GITM.webp" alt="college-img">
+      <p></p>
+      <h3>Global Institute of Technology and Management, Farrukhnagar</h3>
+      <p>Currently pursuing my B.Tech with CSE.</p>
+    </div>
+  </div>
+  <hr>
+
+  <div id="skills_container">
+    <h2>Skills</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-html5"></i> HTML</h3>
             </div>
-          </nav>
-    </div>
-    <div class="info">
-        <img src="Profile.png" class="my-image" alt="Profile Photo">
-        <h2>Hello I'm Avish.</h2>
-        <p class="intro">I am a Computer Science Student from Global Institute of Technology & Management and I am learning new skills 
-            regularly to enhance my knowledge. I have the ability to complete tasks on time in both individual and team
-            settings. I'm a responsible student with good time management and a flexible schedule. In this webpage I will
-            try to specify some things about me and I hope we can become friends on basis of some common interests.
-        </p>
-    </div>
-    <hr>
-    <div class="edu row">
-      <h2>Education</h2>
-        <div class="school col-lg-6 col-sm-12">
-            <img class="img " src="School.jpg" alt="school-img">
-            <p></p>
-            <h3>Maru Mal Public Senior Secondary School, Gurugram</h3>
-            <p>Completed my matriculation from C.B.S.E averaging 8.4 CGPA .</p>
-            <p>Completed my twelfth-grade from C.B.S.E averaging 77% .</p>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-css3-alt"></i> CSS</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-bootstrap"></i> BOOTSTRAP</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-js"></i> JAVASCRIPT</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><img class="jLogo" src="jQuery.png" alt="jQUERY_logo"> jQUERY</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-node"></i> NODE JS</h3>
+            </div>
+          </div>
         </div>
-        <div class="college col-lg-6 col-sm-12">
-            <img class="img" src="GITM.webp" alt="college-img">
-            <p></p>
-            <h3>Global Institute of Technology and Management, Farrukhnagar</h3>
-            <p>Currently pursuing my B.Tech with CSE.</p>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><img class="express" src="Express.png" alt="Express Image"> EXPRESS</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-react"></i> REACT JS</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-solid fa-database"></i> SQL</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-git-alt"></i> GIT & GITHUB</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-ubuntu"></i> LINUX</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-java"></i> JAVA</h3>
+            </div>
+          </div>
         </div>
-    </div>
-    <hr>
-    <div id="skills" class="row">
-      <h2>Skills</h2>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-html5"></i> HTML</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-css3-alt"></i> CSS</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-bootstrap"></i> BOOTSTRAP</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-js"></i> JAVASCRIPT</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><img class="jLogo" src="jQuery.png" alt="jQUERY_logo"> jQUERY</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-node"></i> NODE JS</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><img class="express" src="Express.png" alt="Express Image"> EXPRESS</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-react"></i> REACT JS</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-solid fa-database"></i> SQL</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-git-alt"></i> GIT & GITHUB</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-ubuntu"></i> LINUX</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-java"></i> JAVA</h3>
-      </div>
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-python"></i> PYTHON</h3>
-      </div>        
-      <div class="col-lg-4 col-md-6 skill">
-        <h3><i class="fa-brands fa-aws"></i> AWS</h3>
-      </div>        
-    </div>
-    <hr>
 
-    <div id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <h3>Multi-User Blog created using Django</h3>
-            <h3>Travel Tracker</h3>
-        </ul>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-python"></i> PYTHON</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 skill">
+              <h3><i class="fa-brands fa-aws"></i> AWS</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <hr>
+  </div>
+  <hr>
 
-    <div>
-        <h2>Interests</h2>
-        <ul>
-            <h3>I ❤️ Burgers & Cold Coffee</h3>
-            <h3>Anime</h3>
-            <h3>Mobile Games</h3>
-            <h3>Playing Typing Games</h3>
-        </ul>
-    </div>
-    <hr>
+  <div id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <h3>Multi-User Blog created using Django</h3>
+      <h3>Travel Tracker</h3>
+    </ul>
+  </div>
+  <hr>
 
-    <div id="contact">
-        <h2>Get In Touch</h2>
-        <p>Love Anime as much as I do? Let's talk about how awesome they are! We can code together and discuss anime like ONE PIECE!</p>
-    </div>
-    
-    <footer>
-        <a href="">GitHub</a>
-        <p>© Avish</p>
-    </footer>
+  <div>
+    <h2>Interests</h2>
+    <ul>
+      <h3>I ❤️ Burgers & Cold Coffee</h3>
+      <h3>Anime</h3>
+      <h3>Mobile Games</h3>
+      <h3>Playing Typing Games</h3>
+    </ul>
+  </div>
+  <hr>
+
+  <div id="contact">
+    <h2>Get In Touch</h2>
+    <p>Love Anime as much as I do? Let's talk about how awesome they are! We can code together and discuss anime like
+      ONE PIECE!</p>
+  </div>
+
+  <footer>
+    <a href="">GitHub</a>
+    <p>© Avish</p>
+  </footer>
 </body>
+
 </html>
