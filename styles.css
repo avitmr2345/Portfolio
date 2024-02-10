@@ -9,6 +9,7 @@ a:hover {
 }
 body{
     text-align: center;
+    background-color: #FFE5E5;
 }
 h2 {
     color:  #66BFBF;
@@ -20,7 +21,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 hr {
-    border: 8px dotted #80c5c5;
+    border: 8px dotted #2b3035;
     border-top: 0;
     margin: 30px auto;
     width: 10%;
@@ -51,14 +52,6 @@ hr {
 .skill {
     padding: 25px 0px;
 }
-.jLogo {
-    height: 30px;
-    width: 30px;
-}
-.express {
-    height: 25px;
-    width: 60px;
-}
 footer {
     text-align: center;
     margin-top: 50px;
@@ -66,5 +59,7 @@ footer {
     padding: 20px 0;
 }
 #skills_container {
-    background-color: #ef8172;
+    background-color: #2b3039;
+    color: white;
+    padding: 120px 0px;
 }
