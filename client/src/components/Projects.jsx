@@ -9,12 +9,13 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript",
         "React",
         "Node.js",
         "Express.js",
         "MongoDB",
-        "Tailwind CSS",
-        "Firebase",
       ],
       features: [
         "Firebase Google authentication integration",
@@ -30,15 +31,14 @@ export default function Projects() {
       description:
         "A fully-functional URL shortening service with secure user authentication, efficient data storage, and reliable redirect functionality.",
       image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+        "https://internal-blog.contentstudio.io/wp-content/uploads/2023/03/Group-4-1.png",
       technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
         "Node.js",
         "Express.js",
         "MongoDB",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "JWT",
       ],
       features: [
         "Secure JWT-based user authentication",
@@ -56,12 +56,12 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
         "Node.js",
         "Express.js",
         "MySQL",
-        "JavaScript",
-        "HTML",
-        "CSS",
       ],
       features: [
         "Interactive map interface for country selection",
