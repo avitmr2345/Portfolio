@@ -50,6 +50,37 @@ export default function Projects() {
       demo: "#",
     },
     {
+      title: "Real-Time Chat App",
+      description:
+        "A full-featured real-time messaging application with instant message delivery, online status indicators, and responsive design for seamless communication across devices.",
+      image:
+        "https://img.freepik.com/premium-vector/concept-illustration-man-woman-friends-having-online-conversation-messaging-chatting-communication-texting-messages-mobile-phone-apps-flat-cartoon-style_270158-412.jpg",
+      technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "DaisyUI",
+        "JavaScript",
+        "React",
+        "Zustand",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+      ],
+      features: [
+        "Real-time bi-directional communication using Socket.IO for instant messaging",
+        "Responsive UI built with Tailwind CSS and DaisyUI components",
+        "Multiple themes via DaisyUI's theming system",
+        "User profile picture uploads via Cloudinary",
+        "JWT-based user authentication with secure password hashing",
+        "Active user presence detection (online/offline status)",
+        "Persistent message history stored in MongoDB",
+        "Zustand state management for global state",
+      ],
+      github: "https://github.com/avitmr2345/ChatApp",
+      demo: "https://chatapp-7l3v.onrender.com",
+    },
+    {
       title: "Travel Tracker",
       description:
         "An interactive map-based application that allows users to track and mark countries they've visited, with robust backend data management and responsive design.",
@@ -98,7 +129,7 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-64 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
